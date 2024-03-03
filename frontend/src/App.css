@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes moveBlue {
+    0% {
+      transform: translateX(0);
+    }
+    33%{
+        transform: translate3d(100px, 10px , -10px);
+    }
+    67%{
+        transform: translate3d(100px, -10px , 10px)
+        
+    }
+    100% {
+      transform: translateX(0px); 
+    }
+  }
+  
+
+  @keyframes moveRed {
+      0% {
+        transform: translateX(0);
+      }
+      33%{
+          transform: translate3d(-100px, -10px , 10px);
+      }
+      67%{
+          transform: translate3d(-100px,10px,-10px)
+          
+      }
+      100% {
+        transform: translateX(0px); 
+      }
+  }
+
+.animate-blue-ball {
+    animation: moveBlue 2s ease infinite 
+}
+
+.animate-red-ball{
+    animation: moveRed 2s ease infinite
+}

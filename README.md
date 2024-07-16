@@ -1,6 +1,9 @@
 ## Games Using Socket
 In this project, I have developed simple games like tic-tac-toe using React and JavaScript, integrating React Router to navigate between different game views. Socket.IO is used to enable multiplayer functionality and real-time chatting within game rooms, providing an interactive and engaging user experience.
 
+![image](https://github.com/user-attachments/assets/1bf4ca66-0849-4ed2-9dd9-d690a8049954)
+![image](https://github.com/user-attachments/assets/c4299feb-62f6-46ec-802c-3b1b0f78ce40)
+
 ## Reason Behind This Project
 This project was created as a learning resource to explore and understand the capabilities of Socket.IO in handling real-time communication and dynamic user interactions. It demonstrates the implementation of various logic required to build multiplayer games with integrated chat features.
 

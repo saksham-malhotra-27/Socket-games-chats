@@ -14,9 +14,11 @@ npm i
 npm run start
 ```
 + Then go to frontend directory and install dependencies.
-`cd Socket-tictactoe/frontend`
-`npm i`
-`npm run dev`
+```
+cd Socket-tictactoe/frontend
+npm i
+npm run dev
+```
 
 ## Features
 ### Multiplayer Gaming: 

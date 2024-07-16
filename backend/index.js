@@ -78,7 +78,7 @@ io.on('connection', (socket)=>{
     return Math.floor(1000 + Math.random() * 9000);
   }
  
-socket.on('joinRoom', (roomNumber)=>{
+  socket.on('joinRoom', (roomNumber)=>{
 
     if(rooms.has(roomNumber) && rooms.get(roomNumber).players.length===1){
       rooms.get(roomNumber).players.push({symbol:'O', socketId:socket.id})
@@ -98,7 +98,7 @@ socket.on('joinRoom', (roomNumber)=>{
  
  
  socket.on('move', (roomNumber,i,j)=>{
- // console.log(roomNumber);
+  // console.log(i,j);
    if(rooms.has(roomNumber)){
     let r = rooms.get(roomNumber); let mark;
 
@@ -131,6 +131,14 @@ socket.on('joinRoom', (roomNumber)=>{
     r.activePlayer.socketId = ap;  */
     //console.log(r); 
    }
+ })
+
+ socket.on('chat', (roomNumber, msg, id)=>{
+  if(rooms.has(roomNumber)){
+    let r = rooms.get(roomNumber);
+    io.to(roomNumber).emit('msg', msg, id )
+    console.log(msg)
+  }
  })
 
 

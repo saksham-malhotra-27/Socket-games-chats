@@ -9,7 +9,7 @@ function Nav() {
   return (
     <nav id='navbar' className={`flex  ${(theme==='black')? 'shadow-[4px_4px_16px_white]':'shadow-[4px_4px_16px_black]'}  flex-row items-center justify-center ${(theme==='black')? 'bg-black':'bg-white'} h-10`} >
         <h3 className={`w-1/5 m-3 ${(theme==='black')?'text-white':'text-black'} `}>
-            AdoPet
+            Game
         </h3>
         <NavLink className={`w-1/5 m-3 ${(theme==='black')?'text-white':'text-black'} `} to='/'>
           Home 

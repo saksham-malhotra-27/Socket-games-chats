@@ -8,9 +8,11 @@ This project was created as a learning resource to explore and understand the ca
 + For cloning: 
 `git clone https://github.com/saksham-malhotra-27/Socket-tictactoe`
 + Then go to backend directory and install dependencies.
-`cd Socket-tictactoe/backend`
-`npm i`
-`npm run start`
+``
+cd Socket-tictactoe/backend
+npm i
+npm run start
+``
 + Then go to frontend directory and install dependencies.
 `cd Socket-tictactoe/frontend`
 `npm i`

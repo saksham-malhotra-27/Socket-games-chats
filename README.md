@@ -12,13 +12,13 @@ This project was created as a learning resource to explore and understand the ca
 `git clone https://github.com/saksham-malhotra-27/Socket-tictactoe`
 + Then go to backend directory and install dependencies.
 ```
-cd Socket-tictactoe/backend
+cd Socket-games-chats/backend
 npm i
 npm run start
 ```
 + Then go to frontend directory and install dependencies.
 ```
-cd Socket-tictactoe/frontend
+cd Socket-games-chats/frontend
 npm i
 npm run dev
 ```
